@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire de l'agenda</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="agenda.css">
+    </head>
+    <body>
+        <form>
+            <h1>Nouvel évènement</h1>
+            <div class="ligne"></div>
+            <div class="leformulaire">
+                <div class="laformulaire">
+                    <div class="liformulaire">
+                        <label>Titre</label>
+                        <textarea placeholder="Ajouter un titre"></textarea>
+                        <label>Description</label>
+                        <textarea placeholder="Facultatif"></textarea>
+                        <label>Type d'évènement</label>
+                        <textarea placeholder="Ajouter un type d'évènement"></textarea>
+                    </div>
+                </div>
+                <div class="Iiformulaire">
+                    <div class="liformulaire">
+                        <label>Date</label>
+                        <input type="text">
+                        <i class="fa-solid fa-calendar"></i>
+                    </div>
+                    <div class="liformulaire">
+                        <label>Heure</label>
+                        <input type="text">
+                        <i class="fa-star"></i>
+                    </div>
+
+                    <div class="liformulaire">
+                        <label>Lieu</label>
+                        <input type="text">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="boutonformulaire" align="end">
+                <button>Créer l'évènement</button>
+            </div>
+        </form>
+    </body>
+</html>
